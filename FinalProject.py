@@ -2,7 +2,7 @@ import cv2 as cv
 import sys
 import numpy as np
 #Load the image and convert to RGB
-image = 'colorcast3.jpg'
+image = 'colorcast1.jpg'
 image_load = cv.imread(image)
 image_rgb = cv.cvtColor(image_load, cv.COLOR_BGR2RGB)
 #Displays image
